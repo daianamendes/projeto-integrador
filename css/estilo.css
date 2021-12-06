@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+    background-size: 20% auto;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    font-family: 'Indie Flower', cursive;
+    margin-left: 10px;
+}
+
+i {
+    margin-left: 5px;
+}
+
+.logo {
+    width: 90px;
+    margin-left: 15px;
+}
+
+.logo:hover {
+    opacity: 0.6;
+}
+
+.carro {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.marca {
+    font-family: 'Lobster', cursive;
+    padding: 0px;
+    margin-bottom: 150px;
+    font-size: 7.25em;
+    color: rgb(197, 201, 201);
+    text-shadow: bisque 3px 1px 1px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 455px;
+}
+
+
+/*-------Editando a Segunda Parte dos Site*/
+
+.sobre {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.titulo {
+    width: 90%;
+    font-family: 'Pacifico', cursive;
+    background-color: #6c757d;
+    color: #fdf9f9;
+    text-align: center;
+    font-size: 2.5em!important;
+    text-shadow: #585858 3px 1px 8px;
+    margin: 20px auto!important;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 5px;
+}
+
+.titulo>.btn {
+    margin-bottom: 5px;
+}
+
+
+/* Editando o card*/
+
+.card {
+    border: 0px!important;
+    border-bottom: 0px;
+    background-color: white;
+    font-size: 1.5em;
+    box-shadow: black 2px 2px 5px;
+}
+
+.card-header {
+    border: 0px;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    line-height: 2.5;
+    border-bottom: 0px!important;
+}
+
+.card-body {
+    border-left: solid 5px rgb(136, 136, 136);
+    text-align: left;
+    font-style: italic;
+    display: flex;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 0px!important;
+}
+
+.sub-total {
+    margin: 0 5px;
+}
+
+.item {
+    margin: 0 0 !important;
+    justify-content: space-between!important;
+}
+
+.btn-info {
+    box-shadow: rgb(168, 164, 164) 2px 2px 2px;
+}
+
+.btn-primary:hover {
+    box-shadow: #6060f8 0px 0px 6px;
+}
+
+.quatidade {
+    margin-right: 15px!important;
+    float: right!important;
+    border-color: antiquewhite;
+    margin: 0px 15px!important;
+}
+
+.card-footer>img {
+    width: 100%;
+}
+
+.cadarpio .card-body {
+    text-align: left;
+    border-left: none!important;
+    font-family: 'Indie Flower', cursive;
+}
+
+#pedidos {
+    margin: 10px 0px;
+    font-size: 1em;
+}
+
+input {
+    width: 20%;
+    border-radius: 3px;
+}
+
+.footer {
+    font-family: 'Pacifico', cursive;
+    border-top: #acb3b9 1px solid;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff8f8;
+    background-color: #6c757d;
+    display: block!important;
+    bottom: 0;
+}
+
+
+/*Ajustando para diferentes dispositivos*/
+
+@media only screen and (max-width:1445px) {
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1445px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 368px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 260px;
+        margin: 0 auto;
+    }
+    .marca {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:767px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 144px;
+        margin: 0 auto;
+    }
+    .marca {
+        margin-bottom: 5px;
+        font-size: 3em;
+    }
+    .titulo {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:330px) and (max-width:425px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 144px;
+        margin: 0 auto;
+    }
+    .marca {
+        margin-bottom: 5px;
+        font-size: 3em;
+    }
+    .titulo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 130px;
+        margin: 0 auto;
+    }
+    .marca {
+        margin-bottom: 5px;
+        font-size: 2em;
+    }
+    .titulo {
+        width: 100%;
+    }
+}
+
+#grafico {
+    width: 100%!important;
+    height: 10px;
+}

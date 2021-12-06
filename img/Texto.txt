@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');    
+
+O The Serius Coffee foi fundado em 2020 pelo Sr. Anderson em um local mais amplo, consagrado por elegância e elegância, além de ser uma referência temporária ao trabalho e às outras alíquotas.
+    Por fim, ad minimamente veniam, quis exercitar nostrud ullamco laboris nisi ut aliquip ex e comodo consequente. Além do nosso menu completo de café expresso e café, servimos sanduíches frescos feitos no café da manhã e almoço,
+    bem como uma seleção de acompanhamentos, saladas e outras coisas boas.
+    "Use produtos da natureza para o que vale a pena - mas nunca muito cedo nem muito tarde". Fresco é o novo doce. Chef, Coffeeist e Proprietário: Liam Brown
+    Cesta de pão Variedade de pães e muffins de frutas frescos assados Granola de amêndoa de mel com frutas Cereais naturais de mel, aveia tostada, passas, amêndoas e tâmaras 7.00 Waffle Belga Massa de baunilha com farinha de malte 7.50
+    Ovos mexidos Ovos mexidos, pimentão vermelho assado e alho, com cebola verde 7.50 Panquecas de mirtilo Com calda, manteiga e muitas bagas 8,50
+    Café Café regular 2,50 Chocolato Café expresso com chocolate e leite 4.50 Corretto Uísque e café 5.00 Chá gelado Chá quente, exceto não quente 3,00 Refrigerante Coca-Cola, Sprite, Fanta, etc. 2,50
